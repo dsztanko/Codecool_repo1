@@ -19,3 +19,4 @@ while True:
             print("Result: ", int(first_line) * third_line)
         elif second_line == "/":
             print("Result: ", int(first_line) / third_line)
+        print("")
