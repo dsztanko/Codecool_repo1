@@ -6,7 +6,7 @@ import re
 while True:
     first_line = input("Enter a number (or a letter to exit): ")
     # if the given characters do not consist numbers (negative numbers!)
-    if not re.match("^[0-9;-;+]*$", first_line):
+    if not re.match("^[0-9;-;+;.]*$", first_line):
         exit()
     else:
         second_line = input("Enter an operation: ")
